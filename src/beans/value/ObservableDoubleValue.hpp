@@ -6,7 +6,6 @@
 #define OBSERVABLEAPI_OBSERVABLEDOUBLEVALUE_HPP
 
 #include "ObservableNumberValue.hpp"
-
 #include "../../../wrapping/Number.hpp"
 
 namespace observable::beans::value
@@ -21,6 +20,9 @@ namespace observable::beans::value
     
       public:
     
+        /// Returns the current value of this `ObservableDoubleValue`.
+        ///
+        /// @return The current value
         virtual double get() = 0;
     
     };

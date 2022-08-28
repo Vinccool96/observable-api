@@ -20,6 +20,9 @@ namespace observable::beans::value
     
       public:
     
+        /// Returns the current value of this `ObservableIntValue`.
+        ///
+        /// @return The current value
         virtual int get() = 0;
     
     };

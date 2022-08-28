@@ -20,6 +20,9 @@ namespace observable::beans::value
     
       public:
     
+        /// Returns the current value of this `ObservableShortValue`.
+        ///
+        /// @return The current value
         virtual short get() = 0;
     
     };

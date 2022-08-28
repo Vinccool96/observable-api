@@ -20,6 +20,9 @@ namespace observable::beans::value
     
       public:
     
+        /// Returns the current value of this `ObservableLongValue`.
+        ///
+        /// @return The current value
         virtual long get() = 0;
     
     };

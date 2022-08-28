@@ -6,7 +6,6 @@
 #define OBSERVABLEAPI_OBSERVABLEFLOATVALUE_HPP
 
 #include "ObservableNumberValue.hpp"
-
 #include "../../../wrapping/Number.hpp"
 
 namespace observable::beans::value
@@ -21,6 +20,9 @@ namespace observable::beans::value
     
       public:
     
+        /// Returns the current value of this `ObservableFloatValue`.
+        ///
+        /// @return The current value
         virtual float get() = 0;
     
     };

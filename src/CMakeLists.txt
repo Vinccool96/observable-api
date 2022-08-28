@@ -13,4 +13,6 @@ add_library(BEANS_VALUE STATIC
         beans/value/ObservableIntValue.hpp beans/value/ObservableIntValue.cpp
         beans/value/ObservableLongValue.hpp beans/value/ObservableLongValue.cpp
         beans/value/ObservableShortValue.hpp beans/value/ObservableShortValue.cpp
+        beans/value/ObservableObjectValue.hpp beans/value/ObservableObjectValue.cpp
+        beans/value/ObservableStringValue.hpp beans/value/ObservableStringValue.cpp
         )
