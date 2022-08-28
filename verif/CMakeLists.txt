@@ -1,0 +1,1 @@
+add_library(VERIF STATIC verif.hpp verif.cpp)

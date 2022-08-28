@@ -1,0 +1,1 @@
+add_library(WRAPPING STATIC Boolean.hpp Boolean.hpp Number.hpp Double.cpp Float.cpp Long.cpp Int.cpp Short.cpp)
