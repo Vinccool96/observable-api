@@ -24,4 +24,6 @@ add_library(BEANS_VALUE STATIC
         beans/value/WritableIntValue.hpp beans/value/WritableIntValue.cpp
         beans/value/WritableLongValue.hpp beans/value/WritableLongValue.cpp
         beans/value/WritableShortValue.hpp beans/value/WritableShortValue.cpp
+        beans/value/WritableObjectValue.hpp beans/value/WritableObjectValue.cpp
+        beans/value/WritableStringValue.hpp beans/value/WritableStringValue.cpp
         )

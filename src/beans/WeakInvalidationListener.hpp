@@ -29,6 +29,9 @@ namespace observable::beans
 
       public:
 
+        /// Create a `WeakListener` wrapping an `InvalidationListener`
+        ///
+        /// @param listener the listener to wrap
         explicit WeakInvalidationListener(const std::shared_ptr<InvalidationListener> &listener);
 
         void invalidated(Observable &observable) override;
