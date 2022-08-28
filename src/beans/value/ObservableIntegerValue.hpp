@@ -12,9 +12,9 @@
 namespace observable::beans::value
 {
 
-    /// A common interface of all sub-interfaces of [ObservableValue] that wrap an integer.
+    /// A common interface of all sub-interfaces of `ObservableValue` that wrap an integer.
     ///
-    /// For the `<T>` of [ObservableValue], it is the type of the wrapped value (an `Integer`).
+    /// For the `<T>` of `ObservableValue`, it is the type of the wrapped value (an `Integer`).
     ///
     /// @see ObservableValue
     /// @see ObservableIntValue

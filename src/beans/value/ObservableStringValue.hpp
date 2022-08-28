@@ -5,7 +5,7 @@
 #ifndef OBSERVABLEAPI_OBSERVABLESTRINGVALUE_HPP
 #define OBSERVABLEAPI_OBSERVABLESTRINGVALUE_HPP
 
-#include <iostream>
+#include <string>
 #include "ObservableObjectValue.hpp"
 
 namespace observable::beans::value

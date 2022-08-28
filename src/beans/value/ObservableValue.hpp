@@ -39,7 +39,7 @@ namespace observable::beans::value
     /// Important note: attaching a `ChangeListener` enforces eager computation even if the implementation of the
     /// `ObservableValue` supports lazy evaluation.
     ///
-    /// @param T The type of the wrapped value.
+    /// @tparam T The type of the wrapped value.
     ///
     /// @see ObservableBooleanValue
     /// @see ObservableDoubleValue

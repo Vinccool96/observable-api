@@ -12,7 +12,7 @@ namespace observable::beans::value
 
     /// An observable typed `Object` value.
     ///
-    /// @param T The type of the wrapped value
+    /// @tparam T The type of the wrapped value
     ///
     /// @see ObservableValue
     template<typename T>

@@ -15,4 +15,13 @@ add_library(BEANS_VALUE STATIC
         beans/value/ObservableShortValue.hpp beans/value/ObservableShortValue.cpp
         beans/value/ObservableObjectValue.hpp beans/value/ObservableObjectValue.cpp
         beans/value/ObservableStringValue.hpp beans/value/ObservableStringValue.cpp
+        beans/value/WritableValue.hpp beans/value/WritableValue.cpp
+        beans/value/WritableBooleanValue.hpp beans/value/WritableBooleanValue.cpp
+        beans/value/WritableNumberValue.hpp beans/value/WritableNumberValue.cpp
+        beans/value/WritableIntegerValue.hpp beans/value/WritableIntegerValue.cpp
+        beans/value/WritableDoubleValue.hpp beans/value/WritableDoubleValue.cpp
+        beans/value/WritableFloatValue.hpp beans/value/WritableFloatValue.cpp
+        beans/value/WritableIntValue.hpp beans/value/WritableIntValue.cpp
+        beans/value/WritableLongValue.hpp beans/value/WritableLongValue.cpp
+        beans/value/WritableShortValue.hpp beans/value/WritableShortValue.cpp
         )
