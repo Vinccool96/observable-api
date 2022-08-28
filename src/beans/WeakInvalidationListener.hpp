@@ -11,10 +11,12 @@
 
 namespace observable::beans
 {
-    /// A `WeakInvalidationListener` can be used, if an [Observable] should only maintain a weak reference to the listener.
-    /// This helps to avoid memory leaks, that can occur if observers are not unregistered from observed objects after use.
+
+    /// A `WeakInvalidationListener` can be used, if an `Observable` should only maintain a weak reference to the
+    /// listener. This helps to avoid memory leaks, that can occur if observers are not unregistered from observed
+    /// objects after use.
     ///
-    /// `WeakInvalidationListener` are created by passing in the original [InvalidationListener]. The
+    /// `WeakInvalidationListener` are created by passing in the original `InvalidationListener`. The
     /// `WeakInvalidationListener` should then be registered to listen for changes of the observed object.
     ///
     /// Note: You have to keep a reference to the `InvalidationListener`, that was passed in as long as it is in use,
@@ -24,7 +26,9 @@ namespace observable::beans
     /// @see Observable
     class WeakInvalidationListener : public InvalidationListener, public WeakListener
     {
+
       public:
+
         explicit WeakInvalidationListener(const std::shared_ptr<InvalidationListener> &listener);
 
         void invalidated(Observable &observable) override;
@@ -32,6 +36,7 @@ namespace observable::beans
         bool wasGarbageCollected() override;
 
       private:
+
         std::weak_ptr<InvalidationListener> ref;
 
     };

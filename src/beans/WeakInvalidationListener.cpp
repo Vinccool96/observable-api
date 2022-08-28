@@ -7,7 +7,6 @@
 observable::beans::WeakInvalidationListener::WeakInvalidationListener(
         const std::shared_ptr<InvalidationListener> &listener) : ref(listener)
 {
-
 }
 
 void observable::beans::WeakInvalidationListener::invalidated(Observable &observable)

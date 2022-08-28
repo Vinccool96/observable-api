@@ -9,6 +9,7 @@
 
 namespace observable::exceptions
 {
+    /// A simple exception that shows that the method or use case hasn't been implemented
     class NotImplementedException : public std::logic_error
     {
       public:
@@ -16,6 +17,7 @@ namespace observable::exceptions
 
         explicit NotImplementedException(const std::string &s);
     };
+
 }
 
 #endif //OBSERVABLEAPI_NOTIMPLEMENTEDEXCEPTION_HPP

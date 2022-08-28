@@ -11,9 +11,9 @@
 namespace observable::beans::value
 {
 
-    /// A common interface of all sub-interfaces of [ObservableValue] that wrap a number.
+    /// A common interface of all sub-interfaces of `ObservableValue` that wrap a number.
     ///
-    /// For the `<T>` of [ObservableValue], it is the type of the wrapped value (a `Number`).
+    /// For the `<T>` of `ObservableValue`, it is the type of the wrapped value (a `Number`).
     ///
     /// @see ObservableValue
     /// @see ObservableDoubleValue
@@ -23,7 +23,9 @@ namespace observable::beans::value
     /// @see ObservableShortValue
     class ObservableNumberValue : public ObservableValue<wrapping::Number>
     {
+
       public:
+
         /// Returns the value of this `ObservableNumberValue` as a `double`. If the value is not a `double`, a standard
         /// cast is performed.
         ///
@@ -53,6 +55,7 @@ namespace observable::beans::value
         ///
         /// @return The value of this `ObservableNumberValue` as a `short`
         virtual short getShortValue() const = 0;
+
     };
 
 }

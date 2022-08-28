@@ -7,6 +7,7 @@
 
 namespace observable::beans
 {
+
     /// `WeakListener` is the super interface of all weak listener implementations of the API runtime. Usually it should
     /// not be used directly, but instead one of the sub-interfaces will be used.
     ///
@@ -15,9 +16,17 @@ namespace observable::beans
     ///
     class WeakListener
     {
+
       public:
+
+        /// Returns `true` if the linked listener was garbage-collected. In this case, the listener can be removed from
+        /// the observable.
+        ///
+        /// @return `true` if the linked listener was garbage-collected.
         virtual bool wasGarbageCollected() = 0;
+
     };
+
 }
 
 #endif //OBSERVABLEAPI_WEAKLISTENER_HPP
